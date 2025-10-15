@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="./response.html" target="-blank" name="biodata" method="get">
+    <fieldset>
+        <legend>Biodata</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br></br>
+        <label for="dob"> DOB:</label>
+        <input type="Date" id="dob" name="dob" required>
+        <br></br>
+        <label for="phone" > phone:</label>
+        <input type= "phone" id="number" name="number" placeholder="Enter your number" required>
+        <br></br>
+        <label for="Attempt"> attempt:</label>
+        <input type="number" id="attempt" name="attempt" min="1" max="3" required>
+        <br></br>
+        <label for="email"> email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br></br>   
+        <label for="Gender"> gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male"> Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female"> Female</label>
+
+<br></br>
+        <label for="check">Vehicles you have</label>
+        <br></br>
+         <label for="car">car:</label>
+        <input type="checkbox" id="car" name="vehicle1" value="car" required>
+        <label for="bike">bike:</label>
+        <input type="checkbox" id="bike" name="vehicle2" value="bike" required>
+        <br></br>
+        <label for="language"> language:</label>
+        <select id="language" name="language"  required>
+           
+            <option value="c">C</option>
+            <option value="c++">C++</option>
+            <option value="java">Java</option>
+            <option value="javascript">JavaScript</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+        </select>
+        <br></br>
+        <label for="pass"> password:</label>
+        <input type="password" id="pass" name="pass" placeholder="Enter your password" required>
+        <br></br>
+        <label for="Appointment"> appointment:</label>
+        <input type="time" id="Appointment" name="Appointment" required>
+        <br></br>
+        <input type="submit" value="Submit"/>  
+        <input type="reset" value="Reset"/>
+    </fieldset>
+    </form
+</body>
+</html>
